@@ -1,343 +1,394 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="تأجير لوازم الحفلات والمناسبات في الرياض، جدة، والمنطقة الشرقية (الدمام، الخبر، القطيف، الجبيل). خدمات تأجير كنب، جلسات، مكيفات، خيام، كراسي، وقهوجيين بجودة عالية وأسعار تنافسية.">
-    <meta name="keywords" content="تأجير لوازم حفلات الرياض, تأجير كنب جدة, جلسات شعبية الدمام, تأجير مكيفات الخبر, تأجير خيام القطيف, خدمات حفلات الجبيل">
-    <meta name="author" content="خدمات تأجير لوازم الحفلات">
-    <title>تأجير لوازم الحفلات والمناسبات | الرياض، جدة، المنطقة الشرقية</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Cairo', sans-serif;
-            background-color: #f8f9fa;
-        }
-        header {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background-color: #343a40;
-            color: white;
-            padding: 15px 0;
-            z-index: 1000;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 1.8rem;
-        }
-        header nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        header nav a:hover {
-            color: #ffd700;
-        }
-        .service-section {
-            margin-top: 100px;
-            padding: 40px 0;
-        }
-        .service-section h2 {
-            color: #343a40;
-            font-weight: bold;
-        }
-        .service-section p {
-            line-height: 1.8;
-            color: #555;
-        }
-        .service-images img {
-            width: 100%;
-            max-width: 300px;
-            margin: 10px;
-            border-radius: 10px;
-        }
-        .contact-icons {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-        .contact-icons a {
-            display: block;
-            margin: 10px 0;
-            font-size: 2rem;
-            color: white;
-            background-color: #25d366;
-            padding: 15px;
-            border-radius: 50%;
-            text-align: center;
-        }
-        .contact-icons .phone {
-            background-color: #007bff;
-        }
-        .service-contact a {
-            margin: 0 10px;
-            font-size: 1.5rem;
-            color: white;
-            padding: 10px;
-            border-radius: 50%;
-        }
-        .faq {
-            margin-top: 20px;
-        }
-        .faq h3 {
-            color: #343a40;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تأجير كراسي وطاولات تأجير كنب تأجير جلسات وتأجير مستلزمات الحفلات والمناسبات</title>
+  <meta name="description" content="لمسات - خدمات تأجير كاملة: تأجير كراسي وطاولات، تأجير كنب، تأجير مستلزمات الحفلات والمناسبات، تأجير مكيفات، تأجير شاشات عرض، تأجير جلسات شعبية، تأجير سماعات، تأجير قهوجيين وصبابين. خدمات احترافية في الرياض وباقي المدن - تأجير طاولات وكراسي وتأجير كنب وتأجير مستلزمات الحفلات والمناسبات.">
+  <meta name="keywords" content="تأجير كراسي, تأجير طاولات, تأجير كنب, تأجير مستلزمات الحفلات, تأجير مستلزمات المناسبات, تأجير جلسات شعبية, تأجير شاشات عرض, تأجير مكيفات, تأجير سماعات, تأجير طاولات وكراسي وتأجير كنب">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ====== Base ====== */
+    :root{ --accent:#0b5; --gold:#b8860b; --dark:#222; --muted:#666; --wh:#fff; }
+    *{box-sizing:border-box}
+    body{font-family:'Cairo',Tahoma,Arial,sans-serif;margin:0;background:#f7f7f8;color:var(--dark);line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;height:auto;display:block}
+    .container{width:95%;max-width:1200px;margin:0 auto}
+
+    /* ====== Header ====== */
+    header{background:linear-gradient(90deg, rgba(11,86,46,0.06), rgba(184,134,11,0.03));backdrop-filter:blur(2px);padding:18px 0;position:sticky;top:0;z-index:40;border-bottom:1px solid #eee}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{display:flex;align-items:center;gap:10px}
+    .logo .mark{width:54px;height:54px;border-radius:12px;background:linear-gradient(135deg,#b8860b,#0b5);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px}
+    .site-title{font-size:20px;font-weight:700}
+    .site-sub{font-size:13px;color:var(--muted)}
+    nav{margin-top:6px}
+    .top-actions{margin-left:auto;display:flex;gap:10px;align-items:center}
+
+    /* circular contact icons (not transparent background) */
+    .contact-btn{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.12);cursor:pointer}
+    .contact-btn svg{width:20px;height:20px}
+    .phone-btn{background:#1e293b;color:#fff}
+    .wa-btn{background:#25D366;color:#fff}
+
+    /* ====== Hero ====== */
+    .hero{padding:40px 0;display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center}
+    .hero h1{font-size:34px;margin:0 0 10px}
+    .hero p{color:var(--muted);margin:0 0 18px}
+    .hero .cta{display:flex;gap:12px}
+    .primary-cta{background:var(--gold);color:#fff;padding:12px 18px;border-radius:8px;font-weight:700}
+    .secondary-cta{background:transparent;padding:12px 18px;border-radius:8px;border:1px solid #ddd}
+
+    /* ====== Services ====== */
+    .services{padding:30px 0}
+    .service-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+    .service{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(16,24,40,0.04);display:flex;gap:12px;flex-direction:column}
+    .service .media{display:flex;gap:8px}
+    .service .media img{width:32%;border-radius:8px}
+    .service h3{margin:0;font-size:18px}
+    .service p{color:var(--muted);margin:8px 0}
+    .tags{margin-top:auto}
+    .btns{display:flex;gap:8px;margin-top:8px}
+    .btns .btn{flex:1;padding:10px;border-radius:8px;text-align:center;font-weight:700}
+    .btn-call{background:#1e293b;color:#fff}
+    .btn-wa{background:#25D366;color:#fff}
+
+    /* ====== Gallery ====== */
+    .gallery{padding:20px 0}
+    .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}
+
+    /* ====== FAQ ====== */
+    .faq{background:#fff;padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(16,24,40,0.04)}
+    .faq details{margin-bottom:12px}
+
+    /* ====== Footer ====== */
+    footer{padding:28px 0;margin-top:28px;color:var(--muted)}
+
+    /* ====== Floating arrow (bottom corner) ====== */
+    .fab-arrow{position:fixed;right:18px;bottom:18px;width:56px;height:56px;border-radius:14px;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:60;box-shadow:0 10px 30px rgba(0,0,0,0.2)}
+    .fab-arrow.rotate{transform:rotate(180deg)}
+
+    /* small responsiveness */
+    @media(max-width:880px){.hero{grid-template-columns:1fr;}.logo .mark{width:44px;height:44px}}
+  </style>
 </head>
 <body>
-    <!-- الهيدر الثابت -->
-    <header class="text-center">
-        <h1>خدمات تأجير لوازم الحفلات والمناسبات</h1>
-        <nav>
-            <a href="#sofas">تأجير كنب</a>
-            <a href="#sessions">تأجير جلسات</a>
-            <a href="#ac">تأجير مكيفات</a>
-            <a href="#tables">تأجير طاولات وكراسي</a>
-            <a href="#tents">تأجير خيام</a>
-            <a href="#chairs">تأجير كراسي</a>
-            <a href="#stages">تأجير كوش</a>
-            <a href="#carpets">تأجير سجاد</a>
-            <a href="#hospitality">قهوجيين وصبابين</a>
-        </nav>
-    </header>
+  <header>
+    <div class="container" style="display:flex;align-items:center">
+      <div class="brand">
+        <div class="logo">
+          <div class="mark">لمس</div>
+          <div>
+            <div class="site-title">تأجير جلسات - تأجير مستلزمات الحفلات</div>
+            <div class="site-sub">تأجير طاولات وكراسي وتأجير كنب وتأجير مستلزمات الحفلات والمناسبات</div>
+          </div>
+        </div>
+        <div style="margin-inline-start:18px">⭐ خدمة محترفة • توصيل وتركيب • أسعار منافسة</div>
+      </div>
 
-    <!-- أيقونات التواصل الثابتة -->
-    <div class="contact-icons">
-        <a href="https://wa.me/+966123456789" target="_blank" title="واتساب"><i class="fab fa-whatsapp"></i></a>
-        <a href="tel:+966123456789" class="phone" title="اتصال"><i class="fas fa-phone"></i></a>
+      <div class="top-actions" style="margin-inline-start:auto">
+        <!-- circular phone icon (not transparent) -->
+        <a class="contact-btn phone-btn" href="tel:0559534118" title="اتصال">
+          <!-- phone svg -->
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.09 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12 1.05.37 2.07.73 3.05a2 2 0 0 1-.45 2.11L8.09 11.91a16 16 0 0 0 6 6l1.03-1.03a2 2 0 0 1 2.11-.45c.98.36 2 .61 3.05.73A2 2 0 0 1 22 16.92z" fill="currentColor"/></svg>
+        </a>
+
+        <!-- whatsapp circular icon -->
+        <a class="contact-btn wa-btn" href="https://wa.me/966559534118?text=السلام%20عليكم%20ابغى%20معلومات%20عن%20الخدمات" target="_blank" rel="noopener" title="واتساب">
+          <!-- whatsapp svg -->
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg'><path d="M20.52 3.48A11.86 11.86 0 0 0 12 0C5.37 0 .01 5.36.01 12c0 2.11.55 4.16 1.59 5.94L0 24l6.33-1.66A11.94 11.94 0 0 0 12 24c6.63 0 12-5.36 12-12 0-3.19-1.25-6.18-3.48-8.52zM12 21.8a9.8 9.8 0 0 1-5.02-1.34l-.36-.22-3.76.99.99-3.67-.23-.37A9.78 9.78 0 1 1 21.78 12 9.77 9.77 0 0 1 12 21.8z" fill="currentColor"/></svg>
+        </a>
+      </div>
     </div>
+  </header>
 
-    <!-- قسم تأجير كنب -->
-    <section id="sofas" class="service-section container">
-        <h2>تأجير كنب للحفلات والمناسبات</h2>
-        <p>
-            نقدم خدمات تأجير كنب فاخر في الرياض، جدة، والمنطقة الشرقية (الدمام، الخبر، القطيف، الجبيل). تشمل خياراتنا كنب مفرد، كنب ثلاثي، وكنب مخمل بتصاميم عصرية تناسب جميع المناسبات مثل الأعراس، الحفلات الخاصة، والمناسبات العائلية. جميع منتجاتنا نظيفة ومصممة لإضفاء لمسة فخامة على مناسبتك. سواء كنت تبحث عن تأجير كنب في الرياض أو تأجير كنب فاخر في جدة، نحن هنا لخدمتك بجودة عالية وأسعار تنافسية.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=كنب+مفرد" alt="تأجير كنب مفرد في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=كنب+ثلاثي" alt="تأجير كنب ثلاثي في جدة">
-            <img src="https://via.placeholder.com/300x200?text=كنب+مخمل" alt="تأجير كنب مخمل في الدمام">
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero" aria-label="مقدمة">
+      <div>
+        <h1>تأجير جلسات — تأجير كراسي وطاولات، تأجير كنب، وتأجير مستلزمات الحفلات والمناسبات</h1>
+        <p>نقدّم خدمات تأجير احترافية ومتنوعة: تأجير كراسي وطاولات وتأجير كنب وتأجير مستلزمات الحفلات والمناسبات — تأجير شموع، مسرح، إضاءة، سجاد، جلسات شعبية، مكيفات صحراوية، شاشات عرض، سماعات، قهوجيين وصبابين وغيرها.</p>
+        <div class="cta">
+          <a class="primary-cta" href="tel:0559534118">اتصل الآن 0559534118</a>
+          <a class="secondary-cta" href="https://wa.me/966559534118?text=السلام%20عليكم%20ابغى%20عرض%20تأجير" target="_blank">احصل على عرض واتساب</a>
         </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
+
+        <section style="margin-top:20px">
+          <h4>لماذا تختارنا؟</h4>
+          <ul>
+            <li>تأجير طاولات وكراسي وتأجير كنب بجودة عالية.</li>
+            <li>توصيل وتركيب وفك في نفس اليوم.</li>
+            <li>أسعار مناسبة وخصومات للمناسبات الكبيرة.</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside style="background:#fff;border-radius:12px;padding:14px;box-shadow:0 6px 18px rgba(16,24,40,0.04)">
+        <h3>طلب سريع</h3>
+        <p style="color:var(--muted)">اختر الخدمة وراسلنا على واتساب أو اتصل الآن</p>
+        <div style="display:grid;gap:8px">
+          <select id="quickService" style="padding:10px;border-radius:8px;border:1px solid #eee">
+            <option>تأجير كراسي وطاولات</option>
+            <option>تأجير كنب</option>
+            <option>تأجير مكيفات</option>
+            <option>تأجير شاشات عرض</option>
+            <option>تأجير جلسات شعبية</option>
+            <option>تأجير سماعات ودي جي</option>
+            <option>قهوجيين وصبابين</option>
+          </select>
+          <a class="btns" style="display:flex;">
+            <a class="btn btn-call" href="tel:0559534118">اتصال</a>
+            <a class="btn btn-wa" href="https://wa.me/966559534118?text=ابغى%20خدمة:%20" id="waQuick">واتساب</a>
+          </a>
         </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما أنواع الكنب المتوفرة؟</strong> نقدم كنب مفرد، ثلاثي، ومخمل بتصاميم متنوعة.</p>
-            <p><strong>هل تشمل الخدمة التوصيل؟</strong> نعم، نقدم خدمة التوصيل والتركيب في الرياض، جدة، والمنطقة الشرقية.</p>
-            <p><strong>كيف يمكنني الحجز؟</strong> تواصل معنا عبر الواتساب أو الاتصال المباشر.</p>
-        </div>
+      </aside>
     </section>
 
-    <!-- قسم تأجير جلسات -->
-    <section id="sessions" class="service-section container">
-        <h2>تأجير جلسات شعبية ومغربية</h2>
-        <p>
-            استمتع بأجواء تراثية أو عصرية مع خدمات تأجير الجلسات الشعبية والمغربية في الرياض، جدة، الدمام، الخبر، القطيف، والجبيل. نقدم جلسات شعبية مريحة تناسب المناسبات العائلية والتجمعات، وجلسات مغربية فاخرة تضيف لمسة من الأناقة. جميع الجلسات مصممة لتوفير الراحة والجمال. إذا كنت تبحث عن تأجير جلسات شعبية في الرياض أو جلسات مغربية في جدة، تواصلوا معنا للحجز السريع.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=جلسات+شعبية" alt="تأجير جلسات شعبية في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=جلسات+مغربية" alt="تأجير جلسات مغربية في جدة">
-        </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما الفرق بين الجلسات الشعبية والمغربية؟</strong> الجلسات الشعبية تعكس التراث السعودي، بينما المغربية تتميز بالتصاميم الفاخرة والملونة.</p>
-            <p><strong>هل يمكن تخصيص الجلسات؟</strong> نعم، يمكننا تخصيص الجلسات حسب طلبك.</p>
-        </div>
+    <!-- Services section (detailed, with keywords repeated) -->
+    <section class="services" id="services">
+      <h2>خدماتنا في تأجير مستلزمات الحفلات والمناسبات</h2>
+      <p style="color:var(--muted)">نقدّم باقات متكاملة في تأجير كراسي وطاولات، تأجير كنب، تأجير مستلزمات الحفلات والمناسبات، تأجير شاشات عرض، تأجير مكيفات، تأجير جلسات شعبية، تأجير سماعات ودي جي، وقهوجيين وصبابين.</p>
+
+      <div class="service-grid">
+        <!-- Service: تأجير كراسي وطاولات -->
+        <article class="service" id="chairs-tables">
+          <h3>تأجير كراسي وطاولات — تأجير طاولات وكراسي</h3>
+          <div class="media">
+            <img src="https://i.postimg.cc/dVN4fLFp/IMG-2309.jpg" alt="تأجير كراسي" />
+            <img src="https://i.postimg.cc/2y90KBtP/IMG-2371.jpg" alt="تأجير طاولات" />
+            <img src="https://i.postimg.cc/Gh7pXhmG/5efdb91c-9d74-4dcf-a0a5-86cbfc1a9aa4.jpg" alt="تأجير كراسي وطاولات" />
+          </div>
+          <p>نؤجر كراسي وطاولات مناسبات بجميع الانواع: كراسي بلاستيك، كراسي أنيقة، طاولات مستديرة وطاولات مستطيلة. تأجير طاولات وكراسي للمناسبات والافراح، تأجير طاولات وكراسي للمنازل والاستقبال.</p>
+          <p>تفاصيل الخدمة: تأجير طاولات وكراسي مع توصيل وتركيب وفك، أسعار تنافسية وخصومات للكميات الكبيرة. تأجير كراسي وتأجير طاولات وتأجير مستلزمات الحفلات والمناسبات.</p>
+          <div class="btns">
+            <a class="btn btn-call" href="tel:0559534118">اتصال</a>
+            <a class="btn btn-wa" href="https://wa.me/966559534118?text=السلام%20عليكم%20ابغى%20تأجير%20طاولات%20وكراسي" target="_blank">واتساب</a>
+          </div>
+        </article>
+
+        <!-- Service: تأجير كنب -->
+        <article class="service" id="kanab">
+          <h3>تأجير كنب — تأجير كنب للفعاليات والبيوت</h3>
+          <div class="media">
+            <img src="https://i.postimg.cc/J7dwgyjr/c60ae1e5-6514-4989-9c1b-ddf978c41be4.jpg" alt="تأجير كنب" />
+            <img src="https://i.postimg.cc/zBCQfBcQ/IMG-2374.jpg" alt="كرسي كنب" />
+            <img src="https://i.postimg.cc/6pQx1dmp/IMG-2375.jpg" alt="تأجير كنب مريح" />
+          </div>
+          <p>تأجير كنب فخم ومريح للمناسبات، تأجير كنب لصالات الأفراح والمجالس. خيارات متعددة من الكنب: كنب مغلف، كنب ملكي، كنب عصري. تأجير كنب وتأجير مستلزمات الحفلات والمناسبات.</p>
+          <p>نكرر: تأجير كنب بتشكيلة واسعة، توصيل وتركيب احترافي، تأجير كنب بأسعار مناسبة وجودة عالية.</p>
+          <div class="btns">
+            <a class="btn btn-call" href="tel:0559534118">اتصال</a>
+            <a class="btn btn-wa" href="https://wa.me/966559534118?text=ابغى%20عرض%20تأجير%20كنب" target="_blank">واتساب</a>
+          </div>
+        </article>
+
+        <!-- Service: تأجير مكيفات -->
+        <article class="service" id="ac">
+          <h3>تأجير مكيفات صحراوية وفريون</h3>
+          <div class="media">
+            <img src="https://i.postimg.cc/vmk1m8V5/IMG-2373.jpg" alt="مكيف صحراوي" />
+            <img src="https://i.postimg.cc/W3y7TP2y/IMG-2310.jpg" alt="مكيفات فريون" />
+            <img src="https://i.postimg.cc/PryQ5ZrZ/IMG-2316.jpg" alt="تأجير مكيفات" />
+          </div>
+          <p>نوفّر تأجير مكيفات صحراوية وتأجير مكيفات فريون للمناسبات الكبيرة والحفلات الخارجية. خدمات التركيب والصيانة متوفرة. تأجير مستلزمات الحفلات والمناسبات تشمل المكيفات لضمان راحة الضيوف.</p>
+          <div class="btns">
+            <a class="btn btn-call" href="tel:0559534118">اتصال</a>
+            <a class="btn btn-wa" href="https://wa.me/966559534118?text=ابغى%20تأجير%20مكيف" target="_blank">واتساب</a>
+          </div>
+        </article>
+
+        <!-- Service: تأجير شاشات عرض -->
+        <article class="service" id="screens">
+          <h3>تأجير شاشات عرض — شاشات احترافية</h3>
+          <div class="media">
+            <img src="https://i.postimg.cc/cLKtG8Kd/IMG-2304.jpg" alt="شاشات عرض" />
+            <img src="https://i.postimg.cc/Fzg8RR7R/IMG-2299.jpg" alt="شاشة عرض" />
+            <img src="https://i.postimg.cc/vBvtx6Lp/46d351d7-91d2-4d35-8424-f4342844f1c6.jpg" alt="تأجير شاشات" />
+          </div>
+          <p>تأجير شاشات عرض للمؤتمرات، حفلات الاعراس، والعروض التقديمية. شاشات عالية الجودة مع خيارات حجم مختلفة.</p>
+          <div class="btns">
+            <a class="btn btn-call" href="tel:0559534118">اتصال</a>
+            <a class="btn btn-wa" href="https://wa.me/966559534118?text=ابغى%20شاشة%20عرض" target="_blank">واتساب</a>
+          </div>
+        </article>
+
+        <!-- Service: تأجير جلسات شعبية ومغربي -->
+        <article class="service" id="gelsat">
+          <h3>تأجير جلسات شعبية ومغربي</h3>
+          <div class="media">
+            <img src="https://i.postimg.cc/v8f1Q6tz/IMG-2083.png" alt="جلسات شعبية" />
+            <img src="https://i.postimg.cc/QCtnqrmN/30c62dd9-e62e-40b9-9521-0b02920d9691.jpg" alt="جلسات مغربية" />
+            <img src="https://i.postimg.cc/63RdJbQV/b3168f60-5a8a-49be-a705-45da4fcf5726.jpg" alt="جلسة أرضية" />
+          </div>
+          <p>جلسات شعبية ومغربية بأنماط متعددة: جلسات مرتفعة، جلسات أرضية، ديكور تراثي. تأجير مستلزمات الحفلات والمناسبات يشمل الجلسات والشبابيك والزينة.</p>
+          <div class="btns">
+            <a class="btn btn-call" href="tel:0559534118">اتصال</a>
+            <a class="btn btn-wa" href="https://wa.me/966559534118?text=ابغى%20جلسة%20شعبية" target="_blank">واتساب</a>
+          </div>
+        </article>
+
+        <!-- Service: تأجير سماعات ودي جي -->
+        <article class="service" id="sound">
+          <h3>تأجير سماعات ومكبرات صوت وسماعات دي جي</h3>
+          <div class="media">
+            <img src="https://i.postimg.cc/dVN4fLFp/IMG-2309.jpg" alt="سماعات" />
+            <img src="https://i.postimg.cc/2y90KBtP/IMG-2371.jpg" alt="دي جي" />
+            <img src="https://i.postimg.cc/Gh7pXhmG/5efdb91c-9d74-4dcf-a0a5-86cbfc1a9aa4.jpg" alt="مكبرات صوت" />
+          </div>
+          <p>نوفّر تأجير سماعات قوية ومكبرات صوت للحفلات، مع خدمات دي جي وتهيئة الأصوات. تأجير مستلزمات الحفلات والمناسبات الصوتية.</p>
+          <div class="btns">
+            <a class="btn btn-call" href="tel:0559534118">اتصال</a>
+            <a class="btn btn-wa" href="https://wa.me/966559534118?text=ابغى%20سماعات" target="_blank">واتساب</a>
+          </div>
+        </article>
+
+        <!-- Service: قهوجيين وصبابين -->
+        <article class="service" id="qahwaj">
+          <h3>قهوجيين وصبابين للمناسبات</h3>
+          <div class="media">
+            <img src="https://i.postimg.cc/63RdJbQV/b3168f60-5a8a-49be-a705-45da4fcf5726.jpg" alt="قهوجي" />
+            <img src="https://i.postimg.cc/QCtnqrmN/30c62dd9-e62e-40b9-9521-0b02920d9691.jpg" alt="قهوجيين" />
+            <img src="https://i.postimg.cc/v8f1Q6tz/IMG-2083.png" alt="صبابين" />
+          </div>
+          <p>توفير قهوجيين وصبابين للمناسبات مع جميع الأدوات والقهوة العربية والتراثية. تأمين طاقم محترف للفعاليات.</p>
+          <div class="btns">
+            <a class="btn btn-call" href="tel:0559534118">اتصال</a>
+            <a class="btn btn-wa" href="https://wa.me/966559534118?text=ابغى%20قهوجي" target="_blank">واتساب</a>
+          </div>
+        </article>
+
+      </div>
     </section>
 
-    <!-- قسم تأجير مكيفات -->
-    <section id="ac" class="service-section container">
-        <h2>تأجير مكيفات متنقلة للحفلات</h2>
-        <p>
-            نوفر خدمات تأجير مكيفات متنقلة قوية وفعالة في جميع مدن المملكة بما في ذلك الرياض، جدة، والمنطقة الشرقية. مكيفاتنا مناسبة للخيام والمساحات المفتوحة والمغلقة، وتأتي بقدرات تبريد مختلفة تناسب مساحات مختلفة. نحن نضمن لك الراحة في أي مناسبة حتى في أكثر الأيام حرارة. إذا كنت تحتاج تأجير مكيفات في الرياض أو جدة أو المنطقة الشرقية، نحن نقدم أفضل الحلول بأسعار مناسبة.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=مكيف+متنقل" alt="تأجير مكيفات متنقلة في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=مكيف+خيام" alt="تأجير مكيفات للخيام في جدة">
-            <img src="https://via.placeholder.com/300x200?text=مكيف+صحراوي" alt="تأجير مكيفات صحراوية في الدمام">
-        </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما أنواع المكيفات المتوفرة؟</strong> نقدم مكيفات متنقلة، مكيفات خيام، ومكيفات صحراوية بقدرات مختلفة.</p>
-            <p><strong>هل تشمل الخدمة التركيب؟</strong> نعم، نقدم خدمة التركيب والصيانة خلال فترة التأجير.</p>
-            <p><strong>ما المساحات التي تناسبها المكيفات؟</strong> لدينا مكيفات تناسب مساحات من 50 إلى 500 متر مربع.</p>
-        </div>
+    <!-- Gallery -->
+    <section class="gallery">
+      <h2>معرض الصور — بعض أعمالنا</h2>
+      <div class="gallery-grid">
+        <img src="https://i.postimg.cc/dVN4fLFp/IMG-2309.jpg" alt="صورة معرض 1">
+        <img src="https://i.postimg.cc/2y90KBtP/IMG-2371.jpg" alt="صورة معرض 2">
+        <img src="https://i.postimg.cc/Gh7pXhmG/5efdb91c-9d74-4dcf-a0a5-86cbfc1a9aa4.jpg" alt="صورة معرض 3">
+        <img src="https://i.postimg.cc/J7dwgyjr/c60ae1e5-6514-4989-9c1b-ddf978c41be4.jpg" alt="صورة معرض 4">
+        <img src="https://i.postimg.cc/zBCQfBcQ/IMG-2374.jpg" alt="صورة معرض 5">
+        <img src="https://i.postimg.cc/6pQx1dmp/IMG-2375.jpg" alt="صورة معرض 6">
+      </div>
     </section>
 
-    <!-- قسم تأجير طاولات وكراسي -->
-    <section id="tables" class="service-section container">
-        <h2>تأجير طاولات وكراسي للحفلات</h2>
-        <p>
-            نقدم مجموعة متنوعة من طاولات وكراسي الحفلات في الرياض، جدة، والمنطقة الشرقية. تشمل خدماتنا تأجير طاولات طعام بمواصفات مختلفة، طاولات مستديرة، طاولات مستطيلة، وكراسي بلاستيكية وكراسي قماشية بألوان متنوعة. جميع منتجاتنا نظيفة ومحافظة على جودتها. سواء كنت تحتاج تأجير طاولات وكراسي لحفل زفاف أو مناسبة عائلية في الرياض، جدة، أو الدمام، نحن نضمن لك أفضل الخدمات.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=طاولات+طعام" alt="تأجير طاولات طعام في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=كراسي+بلاستيك" alt="تأجير كراسي بلاستيكية في جدة">
-            <img src="https://via.placeholder.com/300x200?text=طاولات+مستديرة" alt="تأجير طاولات مستديرة في الدمام">
-        </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما أنواع الطاولات والكراسي المتوفرة؟</strong> نقدم طاولات مستديرة، مستطيلة، وكراسي بلاستيكية وكراسي قماشية.</p>
-            <p><strong>هل يمكن تخصيص الألوان؟</strong> نعم، يمكننا توفير كراسي بألوان متنوعة تناسب ديكور مناسبتك.</p>
-            <p><strong>ما عدد الطاولات والكراسي المتوفرة؟</strong> لدينا كميات كبيرة تناسب المناسبات الكبيرة والصغيرة.</p>
-        </div>
+    <!-- FAQ (with schema in JSON-LD below) -->
+    <section style="margin-top:20px">
+      <h2>الأسئلة الشائعة عن تأجير مستلزمات الحفلات والمناسبات</h2>
+      <div class="faq">
+        <details open>
+          <summary><strong>كيف أطلب خدمة التأجير؟</strong></summary>
+          <p>تقدر تتصل على 0559534118 أو ترسل رسالة واتساب على 966559534118 مع تفاصيل المناسبة (التاريخ، الوقت، نوع الخدمة، عدد الضيوف) وسنقوم بإرسال عرض سعر.</p>
+        </details>
+
+        <details>
+          <summary><strong>كم مدة التأجير؟</strong></summary>
+          <p>مدة التأجير مرنة: يوم واحد للمناسبات اليومية، باقات أسبوعية أو شهرية متاحة بتخفيضات. نغطي تأجير طاولات وكراسي وتأجير كنب وتأجير مستلزمات الحفلات والمناسبات.</p>
+        </details>
+
+        <details>
+          <summary><strong>هل توفرون التركيب والتفكيك؟</strong></summary>
+          <p>نعم، التوصيل والتركيب والفك متضمنان في العرض حسب الاتفاق. نوفر فريق تركيب محترف ويعمل بسرعة لضمان نجاح الحدث.</p>
+        </details>
+
+        <details>
+          <summary><strong>ما طرق الدفع؟</strong></summary>
+          <p>الدفع نقداً عند التسليم، أو تحويل بنكي، أو عبر نقاط دفع إلكترونية حسب الاتفاق.</p>
+        </details>
+
+      </div>
     </section>
 
-    <!-- قسم تأجير خيام -->
-    <section id="tents" class="service-section container">
-        <h2>تأجير خيام للحفلات والمناسبات</h2>
-        <p>
-            نوفر خدمات تأجير خيام بمواصفات وأحجام مختلفة في الرياض، جدة، والمنطقة الشرقية. تشمل خياراتنا خيام عربية تقليدية، خيام حديثة، وخيام فاخرة مزودة بجميع وسائل الراحة. خيامنا مناسبة للمناسبات العائلية، حفلات الزفاف، والمناسبات الرسمية. سواء كنت تبحث عن تأجير خيام في الرياض أو جدة أو المنطقة الشرقية، نحن نضمن لك خياماً آمنة ومريحة تناسب جميع الأجواء.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=خيام+عربية" alt="تأجير خيام عربية في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=خيام+فاخرة" alt="تأجير خيام فاخرة في جدة">
-            <img src="https://via.placeholder.com/300x200?text=خيام+حديثة" alt="تأجير خيام حديثة في الدمام">
-        </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما أحجام الخيام المتوفرة؟</strong> لدينا خيام بأحجام مختلفة تناسب من 50 إلى 500 شخص.</p>
-            <p><strong>هل تشمل الخدمة التركيب والفك؟</strong> نعم، نقدم خدمة التركيب والفك الكاملة.</p>
-            <p><strong>هل الخيام مقاومة للعوامل الجوية؟</strong> نعم، جميع خيامنا مقاومة للماء والرياح.</p>
-        </div>
+    <!-- Contact / map -->
+    <section style="margin-top:18px;background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(16,24,40,0.04)">
+      <h2>تواصل معنا</h2>
+      <p>للحجوزات والاستفسارات اتصل أو راسل واتساب 0559534118</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+        <a class="contact-btn phone-btn" href="tel:0559534118">📞</a>
+        <a class="contact-btn wa-btn" href="https://wa.me/966559534118" target="_blank">WA</a>
+      </div>
     </section>
 
-    <!-- قسم تأجير كراسي -->
-    <section id="chairs" class="service-section container">
-        <h2>تأجير كراسي متنوعة للحفلات</h2>
-        <p>
-            نقدم خدمات تأجير كراسي متنوعة للحفلات والمناسبات في الرياض، جدة، والمنطقة الشرقية. تشمل مجموعتنا كراسي بلاستيكية متينة، كراسي قماشية مريحة، كراسي خشبية فاخرة، وكراسي طاولات الطعام. جميع الكراسي نظيفة ومحافظة على جودتها. سواء كنت تحتاج تأجير كراسي لحفل زفاف أو مناسبة عائلية في الرياض، جدة، أو الدمام، نحن نضمن لك أفضل الخدمات والأسعار.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=كراسي+بلاستيك" alt="تأجير كراسي بلاستيكية في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=كراسي+قماش" alt="تأجير كراسي قماشية في جدة">
-            <img src="https://via.placeholder.com/300x200?text=كراسي+خشب" alt="تأجير كراسي خشبية في الدمام">
+    <footer style="margin-top:24px">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+        <div>
+          <strong>سمو</strong>
+          <div style="color:var(--muted)">تأجير طاولات وكراسي وتأجير كنب وتأجير مستلزمات الحفلات والمناسبات</div>
         </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما أنواع الكراسي المتوفرة؟</strong> نقدم كراسي بلاستيكية، قماشية، خشبية، وكراسي طاولات طعام.</p>
-            <p><strong>هل يمكن تخصيص ألوان الكراسي؟</strong> نعم، يمكننا توفير كراسي بألوان متنوعة تناسب ديكور مناسبتك.</p>
-            <p><strong>ما عدد الكراسي المتوفرة؟</strong> لدينا كميات كبيرة تناسب المناسبات الكبيرة والصغيرة.</p>
-        </div>
-    </section>
+        <div style="color:var(--muted)">حقوق النشر © 2025 سمو</div>
+      </div>
+    </footer>
+  </main>
 
-    <!-- قسم تأجير كوش وطاولات استقبال -->
-    <section id="stages" class="service-section container">
-        <h2>تأجير كوش وطاولات استقبال</h2>
-        <p>
-            نقدم خدمات تأجير كوش وطاولات استقبال فاخرة للحفلات والمناسبات في الرياض، جدة، والمنطقة الشرقية. تشمل خدماتنا كوشات للعروس والعريس، طاولات استقبال مزينة، ومنصات للخطابة. جميع منتجاتنا مصممة بعناية لإضفاء لمسة من الفخامة على مناسبتك. سواء كنت تبحث عن تأجير كوش في الرياض أو طاولات استقبال في جدة، نحن نضمن لك أفضل التصاميم والجودة.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=كوش+عروس" alt="تأجير كوش عروس في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=طاولات+استقبال" alt="تأجير طاولات استقبال في جدة">
-            <img src="https://via.placeholder.com/300x200?text=منصة+خطابة" alt="تأجير منصة خطابة في الدمام">
-        </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما أنواع الكوش المتوفرة؟</strong> نقدم كوشات كلاسيكية، حديثة، وفاخرة بتصاميم متنوعة.</p>
-            <p><strong>هل يمكن تخصيص التصميم؟</strong> نعم، يمكننا تخصيص الكوش وطاولات الاستقبال حسب طلبك.</p>
-            <p><strong>هل تشمل الخدمة التزيين؟</strong> نعم، يمكننا توفير خدمة التزيين الإضافية.</p>
-        </div>
-    </section>
+  <!-- floating arrow (bottom corner) -->
+  <div id="fabArrow" class="fab-arrow" title="الانتقال لأعلى/أسفل" aria-hidden="false">
+    <!-- arrow svg -->
+    <svg id="fabIcon" width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 5v14M5 12l7-7 7 7" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
 
-    <!-- قسم تأجير سجاد وحواجز -->
-    <section id="carpets" class="service-section container">
-        <h2>تأجير سجاد وحواجز وممرات</h2>
-        <p>
-            نوفر خدمات تأجير سجاد فاخر، حواجز، وممرات مزينة باللونين الخزامي والبنفسجي للحفلات والمناسبات في الرياض، جدة، والمنطقة الشرقية. تشمل خدماتنا سجاد عالي الجودة، حواجز مزينة، وممرات للعروس بألوان وأنواع مختلفة. جميع منتجاتنا نظيفة ومحافظة على جودتها. سواء كنت تبحث عن تأجير سجاد في الرياض أو ممرات مزينة في جدة، نحن نضمن لك أفضل الخدمات والأسعار.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=سجاد+فاخر" alt="تأجير سجاد فاخر في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=حواجز+مزينة" alt="تأجير حواجز مزينة في جدة">
-            <img src="https://via.placeholder.com/300x200?text=ممرات+عروس" alt="تأجير ممرات عروس في الدمام">
-        </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما أنواع السجاد المتوفرة؟</strong> نقدم سجاد فاخر، سجاد عادي، وسجاد بمقاسات مختلفة.</p>
-            <p><strong>هل تتوفر ألوان محددة؟</strong> نعم، لدينا ألوان متنوعة بما في ذلك الخزامي والبنفسجي.</p>
-            <p><strong>هل يمكن تخصيص طول الممرات؟</strong> نعم، يمكننا توفير ممرات بأطوال مختلفة تناسب مساحة مكان الحفل.</p>
-        </div>
-    </section>
+  <script>
+    // Quick WA button - append selected service
+    document.getElementById('waQuick').addEventListener('click', function(e){
+      var svc = encodeURIComponent(document.getElementById('quickService').value);
+      this.href = 'https://wa.me/966559534118?text=' + svc + '%20%20%20اريد%20عرض%20سعر%20،%20الوقت%20والتاريخ%20:';
+    });
 
-    <!-- قسم قهوجيين وصبابين -->
-    <section id="hospitality" class="service-section container">
-        <h2>خدمات قهوجيين وصبابين للمناسبات</h2>
-        <p>
-            نقدم خدمات قهوجيين وصبابين محترفين للمناسبات في الرياض، جدة، والمنطقة الشرقية. فريقنا مدرب على أعلى مستوى لتقديم أفضل خدمات الضيافة العربية الأصيلة. تشمل خدماتنا تقديم القهوة العربية، الشاي، والمنسف بشكل احترافي يناسب تقاليد الضيافة السعودية. سواء كنت تحتاج قهوجي لحفل زفاف أو مناسبة عائلية في الرياض، جدة، أو الدمام، نحن نضمن لك خدمة مميزة تترك انطباعاً رائعاً لدى ضيوفك.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=قهوجي+محترف" alt="خدمات قهوجي محترف في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=صباب+منسف" alt="خدمات صباب منسف في جدة">
-            <img src="https://via.placeholder.com/300x200?text=ضيافة+عربية" alt="خدمات ضيافة عربية في الدمام">
-        </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما الخدمات التي يقدمها القهوجي؟</strong> يقدم القهوجي القهوة العربية، الشاي، وخدمات الضيافة التقليدية.</p>
-            <p><strong>هل يمكن توفير صبابين للمنسف؟</strong> نعم، نوفر صبابين محترفين لتقديم المنسف بشكل تقليدي.</p>
-            <p><strong>ما مدة الخدمة المتوفرة؟</strong> يمكننا توفير الخدمة لعدة ساعات أو طوال فترة المناسبة.</p>
-        </div>
-    </section>
+    // Floating arrow: toggles between scrolling to top and scrolling to bottom
+    const fab = document.getElementById('fabArrow');
+    let atTop = false;
+    fab.addEventListener('click', function(){
+      if(!atTop){
+        // scroll to bottom
+        window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'});
+        this.classList.add('rotate');
+        atTop = true;
+      } else {
+        // scroll to top
+        window.scrollTo({top:0,behavior:'smooth'});
+        this.classList.remove('rotate');
+        atTop = false;
+      }
+    });
 
-    <!-- قسم تأجير سماعات ومكبرات صوت -->
-    <section id="sound" class="service-section container">
-        <h2>تأجير سماعات ومكبرات صوت</h2>
-        <p>
-            نوفر خدمات تأجير سماعات ومكبرات صوت عالية الجودة للحفلات والمناسبات في الرياض، جدة، والمنطقة الشرقية. تشمل مجموعتنا أنظمة صوت متكاملة تناسب المناسبات الصغيرة والكبيرة، بما في ذلك ميكروفونات لاسلكية، خلاطات صوت، وسماعات قوية. جميع المعدات حديثة ومحافظة على أدائها العالي. سواء كنت تحتاج نظام صوت لحفل زفاف أو مناسبة رسمية في الرياض، جدة، أو الدمام، نحن نضمن لك صوتاً نقياً يناسب مناسبتك.
-        </p>
-        <div class="service-images text-center">
-            <img src="https://via.placeholder.com/300x200?text=سماعات+حديثة" alt="تأجير سماعات حديثة في الرياض">
-            <img src="https://via.placeholder.com/300x200?text=مكبرات+صوت" alt="تأجير مكبرات صوت في جدة">
-            <img src="https://via.placeholder.com/300x200?text=أنظمة+صوت" alt="تأجير أنظمة صوت في الدمام">
-        </div>
-        <div class="service-contact text-center">
-            <a href="https://wa.me/+966123456789" target="_blank" style="background-color: #25d366;"><i class="fab fa-whatsapp"></i></a>
-            <a href="tel:+966123456789" style="background-color: #007bff;"><i class="fas fa-phone"></i></a>
-        </div>
-        <div class="faq">
-            <h3>الأسئلة الشائعة</h3>
-            <p><strong>ما أنواع أنظمة الصوت المتوفرة؟</strong> نقدم أنظمة صوت تناسب المناسبات الصغيرة والمتوسطة والكبيرة.</p>
-            <p><strong>هل تشمل الخدمة فني صوت؟</strong> نعم، يمكننا توفير فني صوت محترف لإدارة النظام.</p>
-            <p><strong>هل يمكن تخصيص النظام حسب المساحة؟</strong> نعم، ندرس مساحة المكان ونوفر النظام المناسب.</p>
-        </div>
-    </section>
+    // change fab state on scroll
+    window.addEventListener('scroll', function(){
+      if(window.scrollY>200){
+        fab.style.opacity='1';
+      } else {
+        fab.style.opacity='0.9';
+      }
+      atTop = (window.scrollY + window.innerHeight >= document.body.scrollHeight - 10);
+      if(atTop) fab.classList.add('rotate'); else fab.classList.remove('rotate');
+    });
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    // Simple SEO: add JSON-LD for FAQ and Organization
+    (function(){
+      var ld = {
+        "@context":"https://schema.org",
+        "@type":"LocalBusiness",
+        "name":"سمو",
+        "description":"تأجير طاولات وكراسي وتأجير كنب وتأجير مستلزمات الحفلات والمناسبات",
+        "telephone":"+966559534118",
+        "url":window.location.href
+      };
+      var s = document.createElement('script'); s.type='application/ld+json'; s.text=JSON.stringify(ld); document.head.appendChild(s);
+
+      var faq = {
+        "@context":"https://schema.org",
+        "@type":"FAQPage",
+        "mainEntity":[
+          {"@type":"Question","name":"كيف أطلب خدمة التأجير؟","acceptedAnswer":{"@type":"Answer","text":"اتصل على 0559534118 أو راسل واتساب مع تفاصيل المناسبة"}},
+          {"@type":"Question","name":"كم مدة التأجير؟","acceptedAnswer":{"@type":"Answer","text":"ليوم واحد او باقات اسبوعية وشهرية"}},
+          {"@type":"Question","name":"هل توفرون التركيب؟","acceptedAnswer":{"@type":"Answer","text":"نعم، التوصيل والتركيب والفك متضمن"}}
+        ]
+      };
+      var sf = document.createElement('script'); sf.type='application/ld+json'; sf.text=JSON.stringify(faq); document.head.appendChild(sf);
+    })();
+
+  </script>
 </body>
 </html>
